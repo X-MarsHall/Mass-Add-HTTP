@@ -12,10 +12,8 @@ $list = file_get_contents("t.txt");
 $ex = explode("\n", $list);
 
 foreach($ex as $domain){
-
-$o = fopen("list2.txt", 'a');
-echo "http://".$domain."\n";
-fclose($o);
-
+	
+	echo "http://".$domain."\n";
 }
+
 ?>
