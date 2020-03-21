@@ -18,3 +18,4 @@ echo "http://".$domain."\n";
 fclose($o);
 
 }
+?>
